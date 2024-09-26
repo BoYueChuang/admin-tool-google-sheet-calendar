@@ -1,0 +1,17 @@
+{
+  "type": "module",
+  "scripts": {
+    "clasp": "clasp",
+    "build": "node bundle.js",
+    "clean": "rm dist.js",
+    "push": "npm run build && clasp push && npm run clean"
+  },
+  "devDependencies": {
+    "@google/clasp": "^2.4.2",
+    "@types/google-apps-script": "^1.0.83",
+    "esbuild": "^0.23.1"
+  },
+  "dependencies": {
+    "moment": "^2.30.1"
+  }
+}

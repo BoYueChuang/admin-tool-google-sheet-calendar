@@ -1,0 +1,11 @@
+# ignore all files
+**/**
+
+# except the targets
+!appsscript.json
+!dist.js
+!Code.js
+
+# ignore even valid files if in...
+.git/**
+node_modules/**

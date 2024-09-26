@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "lib": ["ESNext"],
+        "target": "ES2019",
+        "module": "Preserve",
+        "moduleResolution": "Bundler",
+        "isolatedModules": true,
+        "noImplicitAny": true,
+        "experimentalDecorators": true,
+    }
+}
